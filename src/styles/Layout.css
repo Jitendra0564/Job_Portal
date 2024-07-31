@@ -1,0 +1,82 @@
+.sidebar{
+  margin-top: 20px;
+    height: auto;
+    border-radius: 5px;
+    background-color: rgb(1, 73, 74);
+    box-shadow:  0 0 2px gray;
+    color: white;
+
+}
+
+
+.logo h6{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.menu-item i {
+    font-size: 1.2rem;
+    margin: 0 15px;
+    color:white;
+}
+
+.active{
+    background-color: white;
+    padding: 10px;
+}
+
+.active a, .active i{
+    color: rgb(92, 26, 26);
+}
+
+
+.video-container {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  video {
+    max-width: 100%;
+    height: auto;
+  }
+  .job-options {
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    list-style-type: none;  /* Remove default list bullets */
+    padding: 0;  /* Remove default padding */
+  }
+  
+  .job-options li {
+    padding: 10px;
+    cursor: pointer;  /* This will show the hand cursor */
+    transition: background-color 0.3s ease;  /* Smooth transition for hover effect */
+  }
+  
+  .job-options li:hover {
+    background-color: rgba(154, 89, 89, 0.2);
+  }
+  .modal-body {
+    height: auto;
+    width: auto;
+    max-height: 80vh;
+    border-radius: 5px;
+    box-shadow: 0 0 2px gray;
+    overflow-y: auto; 
+    padding: 20px;
+    background-color: rgb(132, 159, 161);
+}
+.modal-header {
+  background-color: rgb(224, 233, 226);
+}
+.modal-footer {
+  background-color: rgb(224, 235, 226);
+}
+

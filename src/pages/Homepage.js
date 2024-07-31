@@ -1,6 +1,5 @@
 import React from "react";
 import "../index.css";
-//import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -12,12 +11,12 @@ const HomePage = () => {
           <li>
             <a href="#">Home</a>
           </li>
-          <li>
+          {/* <li>
             <a href="login">Find Jobs</a>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <a href="login">Post Jobs</a>
-          </li>
+          </li> */}
           <li>
             <a href="#">About Us</a>
           </li>
@@ -69,7 +68,7 @@ const HomePage = () => {
           <input type="email" placeholder="Subscribe to our newsletter" />
           <button>Subscribe</button>
         </div>
-        <p>© 2024 JobMatch Pro. All rights reserved.</p>
+        <p>© 2024 Job-Portal. All rights reserved By Jitendra Lawaniya.</p>
       </footer>
     </div>
   );

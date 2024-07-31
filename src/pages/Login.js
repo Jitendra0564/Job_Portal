@@ -72,7 +72,7 @@ const Login = () => {
               />
               <div className="d-flex justify-content-between">
                 <p>
-                  New User?<Link to="/register">Register</Link>{" "}
+                  Not a Existing User ? <Link to="/register">Register</Link>{" "}
                 </p>
               </div>
             </div>

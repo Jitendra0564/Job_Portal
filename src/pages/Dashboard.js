@@ -1,11 +1,21 @@
 import React from "react";
-import img from "../../src/assets/logo.png";
+import Layout from "../components/Layout/Layout.js";
+import videoClip from "../../src/assets/videos/video.mp4";
+import "../../src/styles/Dashboard.css"; // Create this CSS file for Dashboard-specific styles
 
 const Dashboard = () => {
   return (
-    <div>
-      <img src={img} alt="logo" height={1000} width={1000} />
-    </div>
+    <Layout>
+      <div className="dashboard-container">
+        <h1>Job-Portal Page</h1>
+        <div className="video-container">
+          <video autoPlay muted loop id="background-video">
+            <source src={videoClip} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </Layout>
   );
 };
 
